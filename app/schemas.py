@@ -11,6 +11,9 @@ class User(BaseModel):
     telefono: int
     creacion_user: datetime = datetime.now()
 
+class UserId(BaseModel):
+    id:int
+
 
     """
     Usuario de prueba:
